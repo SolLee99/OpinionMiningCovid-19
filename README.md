@@ -45,7 +45,8 @@
   
   - 2 단계에는 지표와 코로나 19 확진자 수와의 상관분석을 수행하여 상관관계 파악, 최종적으로 코로나 19 확진자 수 증가를 감지하기 위한 기준 제시
 
-![image](https://user-images.githubusercontent.com/61536970/126071797-a73fe1d6-ef1f-4520-b34f-ce2306a3100f.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/61536970/126071797-a73fe1d6-ef1f-4520-b34f-ce2306a3100f.png"></p>
+
 
    - 1단계에는 코로나19와 관련된 소셜 데이터베이스로부터 데이터를 수집하고 감성분석을 통해 감성점수를 파악하고 이에 의견 개수를 반영, 코로나19에 관해 개인의 생각과 상황을 포함하고 있는 지표를 개발할 것임
    
@@ -75,7 +76,7 @@
     
     - 추후 이루어질 상관분석에서 사용될 국내 코로나19 확진자 발생 데이터는 일자 및 확진자 수를 텍스트 형태로 추출(출처: 공공 데이터 포털, 보건복지부_코로나19감염_현황)
     
-![image](https://user-images.githubusercontent.com/61536970/126071995-39b8ae07-64c5-4f6c-bc95-d2d1d68aa6a4.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/61536970/126071995-39b8ae07-64c5-4f6c-bc95-d2d1d68aa6a4.png"></p>
 
 - 각 키워드별 지표(Indicator) 개발
 
@@ -94,12 +95,10 @@
     - x 축은 기간으로 2019.11.22 ~ 2020.12.02 에 해당하며 y 축은 각 키워드별 지표(Indicator)
 
     - 값이 증가할수록 해당 키워드에 대한 사람들의 의견이 긍정적으로 변하는 것이고 감소할수록 해당 키워드에 대한 사람들의 의견이 부정적으로 생성되는 것을 의미
-    
-![image](https://user-images.githubusercontent.com/61536970/126072182-5f9524fb-fd01-41cb-9592-9558e51cb4ac.png)
-![image](https://user-images.githubusercontent.com/61536970/126072184-40860791-a714-4549-9531-9978f33f67c8.png)
-![image](https://user-images.githubusercontent.com/61536970/126072188-b26df38e-7886-48f6-8cf2-8bd4f66f38e2.png)
-![image](https://user-images.githubusercontent.com/61536970/126072191-3cc70949-296b-42d2-9e58-2fc54a8198b9.png)
-![image](https://user-images.githubusercontent.com/61536970/126072196-6151dffb-b328-4792-be52-235a31897bef.png)
+
+<p align="center"><img src="https://user-images.githubusercontent.com/61536970/126072182-5f9524fb-fd01-41cb-9592-9558e51cb4ac.png"><img src="https://user-images.githubusercontent.com/61536970/126072184-40860791-a714-4549-9531-9978f33f67c8.png"><img src="https://user-images.githubusercontent.com/61536970/126072188-b26df38e-7886-48f6-8cf2-8bd4f66f38e2.png"><img src="https://user-images.githubusercontent.com/61536970/126072191-3cc70949-296b-42d2-9e58-2fc54a8198b9.png"><img src="https://user-images.githubusercontent.com/61536970/126072196-6151dffb-b328-4792-be52-235a31897bef.png"></p>
+
+
 
 - 각 키워드 별 지표(Indicator)과 코로나19 확진자 수의 상관관계 분석
 
@@ -109,24 +108,25 @@
 
     - 값이 증가할수록 해당 키워드에 대한 사람들의 의견이 긍정적으로 변하는 것이고 감소할수록 해당 키워드에 대한 사람들의 의견이 부정적으로 생성되는 것을 의미
 
-![image](https://user-images.githubusercontent.com/61536970/126072218-2db6a50d-012b-4a5d-ad0a-8839a5f1aa0b.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/61536970/126072218-2db6a50d-012b-4a5d-ad0a-8839a5f1aa0b.png"></p>
 
    - 이용 데이터는 위에서 수집한 데이터들을 전처리 함(Null data 를 포함하는 행은 제거)
 
    - 최종적으로 본 연구에서 이용할 변수와 별수 별 설명은 [표 3] 참고
    
-![image](https://user-images.githubusercontent.com/61536970/126072239-7987c768-80a2-45d2-9654-d39497f878d3.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/61536970/126072239-7987c768-80a2-45d2-9654-d39497f878d3.png"></p>   
+
 
    - 변수 별 상관관계를 산점도와 히스토그램을 통해 시각화한 결과
-   ![image](https://user-images.githubusercontent.com/61536970/126072272-e974d016-68b7-4c2d-8822-9a74598f4ac9.png)
+ <p align="center"><img src="https://user-images.githubusercontent.com/61536970/126072272-e974d016-68b7-4c2d-8822-9a74598f4ac9.png"></p>   
 
    - 변수 별 상관행렬을 heatmap 으로 나타낸 결과
-   ![image](https://user-images.githubusercontent.com/61536970/126072277-87964773-477b-46a9-a121-a478e0886a61.png)
+ <p align="center"><img src="https://user-images.githubusercontent.com/61536970/126072277-87964773-477b-46a9-a121-a478e0886a61.png"></p>   
 
    - covid_num(코로나 19 확진자 수)와 타 변수들의 상관계수들에 대해 통계적 검증을 실시하였고 유의수준 95% 하에서 n_ftof_meeting 을 제외한 나머지의 상관관계가 통계적으로 유의미함
    
-   ![image](https://user-images.githubusercontent.com/61536970/126072295-7eb2df8d-52aa-446f-b1e4-119604916601.png)
-   
+<p align="center"><img src="https://user-images.githubusercontent.com/61536970/126072295-7eb2df8d-52aa-446f-b1e4-119604916601.png"></p>      
+
    
 - 코로나 19 확진자 수 증가를 감지할 수 있는 기준 제시
 
